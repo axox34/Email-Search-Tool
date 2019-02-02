@@ -11,7 +11,7 @@ import io
 
 def getpartinfo(partno):
     buffer1 = io.StringIO()
-    cnxn = pyodbc.connect(DSN="SAGE100", UID='MAS_REPORTS', PWD='Reporting1')
+    cnxn = pyodbc.connect(DSN="######", UID='######', PWD='####')
     
         
     cursor = cnxn.cursor()
